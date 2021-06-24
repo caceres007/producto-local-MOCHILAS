@@ -1,0 +1,154 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #9e9e9e8f
+}
+.bg-light {
+  background-color: #f8f9fa00!important;
+}
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+}
+.navegacion{
+	width: 1000px;
+	margin: 30px auto;
+	background: transparent  ;
+}
+.menu > li{
+  display: inline-block;
+}
+.menu > li > a{
+display: block;
+padding: 15px 20px;
+color: #353535;
+font-family: 'Open sans';
+text-decoration: none;
+}
+.menu li a:hover{
+  color: orange;
+}
+
+li {
+  line-height: 20px;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+
+.footer {
+  background:burlywood;
+  padding: 3em 0;
+}
+
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+div {
+  display: block;
+}
+
+.boton {
+  text-decoration: none;
+  padding: 5px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #1883ba;
+  border-radius: 40px;
+  border: 2px solid #0016b0;
+}
+
+
+
+/* Follow */
+.social {
+  margin: 50px;
+}
+.social p {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links a {
+  margin: 0 30px;
+}
+
+.links a i {
+  font-size: 3rem;
+}
+
+/* Responsive Button */
+.menu-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  z-index: 2;
+  display: none;
+}
+
+/* Navigation */
+.nav-main {
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 20px 0;
+}
+
+.nav-brand {
+  width: 50px;
+}
+
+/* Navbar Left */
+.nav-main ul {
+  display: flex;
+}
+
+.nav-main ul li {
+  padding: 10px;
+}
+
+.nav-main ul li a {
+  padding: 2px;
+}
+
+.nav-main ul li a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.nav-main ul.nav-menu {
+  flex: 1;
+  margin-left: 20px;
+}
+
+hr {
+  margin: 10px 0;
+}
